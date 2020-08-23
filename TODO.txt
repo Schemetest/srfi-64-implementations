@@ -1,0 +1,4 @@
+Add test suite from /home/src/srfi/48-intermediate-format-strings/test
+
+Perhaps convert it to an SRFI 64 test....
+
