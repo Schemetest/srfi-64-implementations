@@ -332,8 +332,6 @@
   (cond
    ((eq? type #t)
     #t)
-   ((condition-type? type)
-    (and (condition? error) (condition-has-type? error type)))
    ((procedure? type)
     (type error))
    (else
